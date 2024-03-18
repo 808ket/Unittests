@@ -1,7 +1,17 @@
 package com.example.unittests;
 
+/**
+ * Fees is used to contain the function estimateFee.
+ *
+ *
+ */
 public class Fees {
-
+    /**
+     * <p>This method is used to estimate the fee that needs to be paid for speeding.
+     * </p>
+     * @param speedingValue the amount over the speed limit in km/h.
+     * @return the fee that has to be paid for speeding.
+     */
     protected double estimateFee(int speedingValue) {
         double result = 0;
 
