@@ -25,5 +25,9 @@ public class HelloController {
         Fees fees1 = new Fees();
         System.out.println( fees1.estimateFee(speed));
         fees1.estimateFee(speed);
+        Double speed9000 =      fees1.estimateFee(speed);
+        String str = String.valueOf(speed9000);
+        System.out.println(str);
+        welcomeText.setText(str  + "€");
     }
 }

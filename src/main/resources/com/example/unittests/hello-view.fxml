@@ -6,15 +6,14 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox alignment="CENTER" prefHeight="275.0" prefWidth="373.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="com.example.unittests.HelloController">
+<VBox alignment="CENTER" prefHeight="275.0" prefWidth="373.0" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.unittests.HelloController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
    <Label prefHeight="17.0" prefWidth="235.0" text="GeschwindigkeitsUeberschreitung eingeben:" />
     <TextField fx:id="speedTextField"/>
-    <Button onAction="#onHelloButtonClick" prefHeight="25.0" prefWidth="118.0" text="Abschicken" />
+    <Button onAction="#onHelloButtonClick" onMouseClicked="#onHelloButtonClick" prefHeight="25.0" prefWidth="118.0" text="Abschicken" />
    <Label text="Sie haben eine Strafzahlung in Höhe:" />
 
     <Label fx:id="welcomeText" />
-   <TextField />
 </VBox>
