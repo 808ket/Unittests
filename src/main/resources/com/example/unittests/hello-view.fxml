@@ -11,7 +11,7 @@
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
    <Label prefHeight="17.0" prefWidth="235.0" text="GeschwindigkeitsUeberschreitung eingeben:" />
-   <TextField />
+    <TextField fx:id="speedTextField"/>
     <Button onAction="#onHelloButtonClick" prefHeight="25.0" prefWidth="118.0" text="Abschicken" />
    <Label text="Sie haben eine Strafzahlung in Höhe:" />
 
