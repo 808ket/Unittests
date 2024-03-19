@@ -20,9 +20,11 @@
         <children>
             <Label text="Geschwindigkeitsüberschreitung in kmH" />
             <TextField id="speed" fx:id="speed" promptText="KmH" GridPane.rowIndex="1" />
+
             <Button onMouseClicked="#calculate" text="Abschicken" GridPane.rowIndex="2" />
         </children>
     </GridPane>
+    <Label fx:id="alert"/>
     <Label text="Deine Strafe ist:" />
    <Label fx:id="punish" />
 </VBox>
